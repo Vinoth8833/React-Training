@@ -1,0 +1,61 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+Header{
+  background-color: orange;
+  color: white;
+  font-size: 30px;
+  padding: 10px 0px;
+  text-align: center;
+
+}
+Footer{
+  background-color: brown;
+  font-size: 20px;
+  bottom: 0px;
+  text-align: center;
+  padding: 5px 0px;
+  color: white;
+}
+Main{
+  text-align: center;
+  padding: 305px 0px;
+  
+  
+}
+.App{
+  height: 100vh;
+}
+.add{
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+}
+.item input{
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+.item {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: lightgray;
+  cursor: pointer;
+}
+.item svg{
+  font-size: 40px;
+  padding-left: 20px;
+  
+
+}
+.item svg:hover{
+  color: red;
+}
+
+.item label{
+  font-size: 30px;
+  padding-left: 20px;
+}

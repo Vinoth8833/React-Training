@@ -73,7 +73,7 @@ function App(){
      addItems(newItems)
       if (!newItems) return
       setNewItems('')
-      console.log(newItems)
+      console.log(newItems);
     }
 
   return (
